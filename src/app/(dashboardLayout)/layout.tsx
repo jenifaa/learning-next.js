@@ -1,0 +1,13 @@
+import Sidebar from "@/src/components/Sidebar";
+
+const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
+  return (
+    <div className="flex">
+      <Sidebar></Sidebar>
+
+      {children}
+    </div>
+  );
+};
+
+export default DashboardLayout;
