@@ -2,9 +2,11 @@ import ProductCards from "@/src/components/Products/ProductCards";
 import { IProduct } from "@/src/type";
 
 const ProductsPage = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch("http://localhost:5000/products",{
+    cache:"force-cache"
+  });
   const products = await res.json();
-  console.log(products);
+//   console.log(products);
   return (
     <div>
       <h2>Products</h2>
