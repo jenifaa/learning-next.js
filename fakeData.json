@@ -1,82 +1,84 @@
-[
-  {
-    "id": 1,
-    "product_name": "Wireless Bluetooth Headphones",
-    "category": "Electronics",
-    "brand": "Sony",
-    "price": 59.99,
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
-  },
-  {
-    "id": 2,
-    "product_name": "Smart Watch",
-    "category": "Electronics",
-    "brand": "Apple",
-    "price": 199.99,
-    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12"
-  },
-  {
-    "id": 3,
-    "product_name": "Running Shoes",
-    "category": "Footwear",
-    "brand": "Nike",
-    "price": 89.99,
-    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
-  },
-  {
-    "id": 4,
-    "product_name": "Classic Backpack",
-    "category": "Accessories",
-    "brand": "Adidas",
-    "price": 49.99,
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62"
-  },
-  {
-    "id": 5,
-    "product_name": "Mechanical Keyboard",
-    "category": "Electronics",
-    "brand": "Logitech",
-    "price": 79.99,
-    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
-  },
-  {
-    "id": 6,
-    "product_name": "Leather Wallet",
-    "category": "Accessories",
-    "brand": "Fossil",
-    "price": 39.99,
-    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93"
-  },
-  {
-    "id": 7,
-    "product_name": "Digital Camera",
-    "category": "Electronics",
-    "brand": "Canon",
-    "price": 499.99,
-    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32"
-  },
-  {
-    "id": 8,
-    "product_name": "Sunglasses",
-    "category": "Fashion",
-    "brand": "Ray-Ban",
-    "price": 129.99,
-    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083"
-  },
-  {
-    "id": 9,
-    "product_name": "Coffee Maker",
-    "category": "Home Appliances",
-    "brand": "Philips",
-    "price": 99.99,
-    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085"
-  },
-  {
-    "id": 10,
-    "product_name": "Gaming Mouse",
-    "category": "Electronics",
-    "brand": "Razer",
-    "price": 69.99,
-    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db"
-  }
-]
+{
+  "products": [
+    {
+      "id": 1,
+      "product_name": "Wireless Bluetooth Headphones",
+      "category": "Electronics",
+      "brand": "Sony",
+      "price": 59.99,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+    },
+    {
+      "id": 2,
+      "product_name": "Smart Watch",
+      "category": "Electronics",
+      "brand": "Apple",
+      "price": 199.99,
+      "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12"
+    },
+    {
+      "id": 3,
+      "product_name": "Running Shoes",
+      "category": "Footwear",
+      "brand": "Nike",
+      "price": 89.99,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+    },
+    {
+      "id": 4,
+      "product_name": "Classic Backpack",
+      "category": "Accessories",
+      "brand": "Adidas",
+      "price": 49.99,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62"
+    },
+    {
+      "id": 5,
+      "product_name": "Mechanical Keyboard",
+      "category": "Electronics",
+      "brand": "Logitech",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+    },
+    {
+      "id": 6,
+      "product_name": "Leather Wallet",
+      "category": "Accessories",
+      "brand": "Fossil",
+      "price": 39.99,
+      "image": "https://images.unsplash.com/photo-1627123424574-724758594e93"
+    },
+    {
+      "id": 7,
+      "product_name": "Digital Camera",
+      "category": "Electronics",
+      "brand": "Canon",
+      "price": 499.99,
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32"
+    },
+    {
+      "id": 8,
+      "product_name": "Sunglasses",
+      "category": "Fashion",
+      "brand": "Ray-Ban",
+      "price": 129.99,
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083"
+    },
+    {
+      "id": 9,
+      "product_name": "Coffee Maker",
+      "category": "Home Appliances",
+      "brand": "Philips",
+      "price": 99.99,
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085"
+    },
+    {
+      "id": 10,
+      "product_name": "Gaming Mouse",
+      "category": "Electronics",
+      "brand": "Razer",
+      "price": 69.99,
+      "image": "https://images.unsplash.com/photo-1527814050087-3793815479db"
+    }
+  ]
+}
