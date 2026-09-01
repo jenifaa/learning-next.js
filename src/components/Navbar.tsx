@@ -1,6 +1,16 @@
+"use client"
+
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
+
+
+const pathName = usePathname()
+
+
+
   return (
     <nav className="bg-white shadow-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
@@ -12,16 +22,16 @@ const Navbar = () => {
 
         {/* Nav Links */}
         <div className="flex items-center gap-6">
-          <Link href="/" className="text-gray-700 hover:text-blue-600">
+          <Link href="/" className={`${pathName=="/" ? "text-blue-600 font-semibold" : "text-gray-700 hover:text-blue-600"}`}>
             Home
           </Link>
-          <Link href="/about" className="text-gray-700 hover:text-blue-600">
+          <Link href="/about" className={`${pathName=="/about" ? "text-blue-600 font-semibold" : "text-gray-700 hover:text-blue-600"}`}>
             About
           </Link>
-          <Link href="/products" className="text-gray-700 hover:text-blue-600">
+          <Link href="/products" className={`${pathName=="/products" ? "text-blue-600 font-semibold" : "text-gray-700 hover:text-blue-600"}`}>
             Products
           </Link>
-          <Link href="/contact" className="text-gray-700 hover:text-blue-600">
+          <Link href="/contact" className={`${pathName=="/contact" ? "text-blue-600 font-semibold" : "text-gray-700 hover:text-blue-600"}`}>
             Contact
           </Link>
         </div>
